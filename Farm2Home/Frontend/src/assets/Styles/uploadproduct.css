@@ -1,0 +1,97 @@
+.upload-product {
+    display: flex;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #f1f5f9;
+}
+
+.upload-product-form {
+    height: auto;
+     max-width: 950px;
+     width: 100%;
+     background: #ffffff;
+     padding: 25px 30px;
+     border-radius: 10px;
+     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-product-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px; 
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ddd; 
+    color: #0f172a; 
+  }
+  
+
+  .flex-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .half-width {
+    flex: 1;
+  }
+  
+  .form-group textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .form-group select{
+    width: 100%;
+    margin-left: -3px;
+  font-size: 16px; 
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd; 
+  color: #0f172a; 
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 40%;
+  }
+  
+
+
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  

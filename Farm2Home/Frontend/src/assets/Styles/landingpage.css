@@ -1,0 +1,275 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Section 1 - Hero */
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.heading-landing-page {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.heading-landing-page h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+.heading-landing-page h3 {
+  font-size: 24px;
+  color: #388e3c;
+  margin-top: 10px;
+}
+
+.image-container {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; 
+  overflow: hidden; 
+  border-radius: 15% 0 30px 50%; 
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 120px 0px 0 0; 
+  }
+
+/* Section 2 - Features */
+.section2 {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+}
+
+.section2 img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 0 320px 520px 30px; 
+}
+
+.features {
+  margin-left: 150px;
+  width: 30%;
+}
+
+.features h2 {
+  font-size: 32px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.feature p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+  color: #666666;
+}
+
+/* Products */
+.featured-products {
+  background-color: #f1f5f9;
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+
+.featured-products h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #4caf50;
+}
+
+.products-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.products-container div {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.products-container div:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.products-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+ 
+.feedback_container {
+  text-align: center;
+  padding: 20px;
+}
+.feedback_container h1{
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.feedback_item {
+  background-color: #f0f0f0; 
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  
+}
+.feedback_item:hover{
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+.profile_pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.rating span {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+/* Footer Container */
+.footer {
+  background-color: #2f3e46; /* Earthy dark green */
+  color: #ffffff;
+  padding: 40px 20px;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Footer Columns */
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.footer__col h3 {
+  font-size: 26px; 
+  font-weight: 600;
+  color: #ffb703; /* Warm yellow accent */
+  margin-bottom: 20px;
+}
+
+.footer__col h4 {
+  font-size: 20px; 
+  font-weight: 500;
+  color: #ffb703;
+  margin-bottom: 16px;
+}
+
+.footer__col p {
+  color: #ced4da; /* Light grey */
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__col p:hover {
+  color: #ffffff; /* Bright white for emphasis */
+}
+
+/* Footer Bottom Bar */
+.footer__bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid #8d99ae; /* Soft grey divider */
+}
+
+.footer__bar p {
+  font-size: 14px;
+  color: #ced4da;
+  margin: 0;
+}
+
+/* Social Media Icons */
+.socials {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.socials span {
+  color: #ffb703;
+  transition: color 0.3s ease-in-out;
+}
+
+.socials span:hover {
+  color: #d00000; /* Reddish accent for hover effect */
+}
+
+
+/* Other Sections */
+.how-it-works, .why-choose-us {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  list-style-position: inside;
+  padding: 30px;
+}
+
+.how-it-works h2, .why-choose-us h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #4caf50;
+}
+
+.why-choose-us ul {
+  margin-top: 20px;
+}
+
+.why-choose-us ul li {
+  font-size: 16px;
+  color: #666;
+}

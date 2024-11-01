@@ -1,0 +1,13 @@
+.section__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 10px; 
+  }
+  
+  .section__header {
+    color: #0f172a; 
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px; 
+    margin-top: 20px;
+  }
