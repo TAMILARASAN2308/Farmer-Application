@@ -11,7 +11,7 @@ function NavFarmer() {
            <li className="link"><Link to="/farmer-home">Home</Link></li>
            <li className="link"><Link to="/upload-product">Upload Product</Link></li>
            <li className="link"><Link to="/view-products">View Products</Link></li>
-           <li className="link"><Link>Consumer Requests</Link></li>
+           <li className="link"><Link to="/consumer-requests">Consumer Requests</Link></li>
         </ul>
         <Link to="/"><button className="btn">LOGOUT</button></Link>
     </nav>

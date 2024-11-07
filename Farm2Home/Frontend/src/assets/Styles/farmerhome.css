@@ -11,3 +11,66 @@
     line-height: 64px; 
     margin-top: 20px;
   }
+
+
+
+  /* farmerhome.css */
+
+/* Container styling */
+/* .section__container {
+  padding: 20px;
+  text-align: center;
+} */
+
+/* Card styling */
+.card {
+  border: 1px solid #64d45600;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(58, 211, 76, 0.3);
+}
+
+.heading{
+  color: #29ed13;
+  text-align: center;
+    font-size: 48px;
+    line-height: 64px; 
+    margin-top: 20px;
+}
+
+.card-title {
+  color: #29ed13; /* Customize card title color */
+}
+
+.card-text {
+  color: #555; /* Customize card text color */
+}
+
+/* .btn-primary {
+  background-color: #36d343;
+  border-color: #0b8001;
+}
+
+.btn-primary:hover {
+  background-color: #034f04;
+  border-color: #357ABD;
+} */
+
+.count {
+  color: #236f1a;
+  text-align: center;
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.card-img-top{
+  width: 25rem;
+  border-radius: 17px;
+}
