@@ -61,6 +61,59 @@ function FarmerHome() {
             </div>
           </div>
       </div>
+
+      <h2 className="heading">Customer requests</h2>
+      <div className='consumer_request'>
+      <div className="container-fluid"></div>
+        <div className="row">
+          <div className="col-sm-3">
+          <div className="card" >
+                <img className="card-img-top" src="/Images/vegetables.webp" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Fruits</h5>
+                  <p className="card-text">Total Number of Agricutural products categorized here.</p>
+                  {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                  <p className="count">45</p>
+                </div>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="card" >
+            
+                <img className="card-img-top" src="/Images/vegetables.webp" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Vegetables</h5>
+                  <p className="card-text">The total number of products awailable here.</p>
+                  {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                  <p className="count">5</p>
+                </div>
+            </div>
+
+          </div>
+          <div className="col-sm-3">
+          <div className="card" >
+                <img className="card-img-top" src="/Images/vegetables.webp" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Grains</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                  <p className="count">10</p>
+                </div>
+            </div>
+          </div>
+          <div className="col-sm-3">
+          <div className="card" >
+                <img className="card-img-top" src="/Images/vegetables.webp" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Herbs</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                  <p className="count">23</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      </div>
     </>
   );
 }
